@@ -25,6 +25,22 @@ chcp.com
 Active code page: 932
 ```
 
+chcp は change the code page の略で、コードページ番号を変更するコマンド。
+
+指定可能なコードページ番号はマイクロソフトのホームページにて参照が可能である。
+
+Code Page Identifiers:  
+https://docs.microsoft.com/en-us/windows/win32/intl/code-page-identifiers
+
+よく利用されるものは次の通りである。
+
+|Identifier	|.NET Name |Additional information |
+|:-- |:-- |:-- |
+|932	|shift_jis	ANSI/OEM Japanese |Japanese (Shift-JIS) |
+|20127	|us-ascii	|US-ASCII (7-bit) |
+|51932	|euc-jp	|EUC Japanese |
+|65001	|utf-8	|Unicode (UTF-8) |
+
 ## Unicode (UTF-8) に変更する方法
 コンソールの文字コードを Unicode(UTF-8) にするには、以下のコマンドを実行する。
 
